@@ -1,0 +1,13 @@
+contract_type,addon_bundle,customers,churned,churn_rate_pct
+Month-to-month,Has neither,2165,1185,54.7
+Month-to-month,Has one of the two,981,323,32.9
+Month-to-month,Has both security and support,205,48,23.4
+Month-to-month,No internet service,524,99,18.9
+One year,Has neither,299,55,18.4
+One year,Has one of the two,516,69,13.4
+One year,Has both security and support,294,33,11.2
+One year,No internet service,364,9,2.5
+Two year,Has neither,89,10,11.2
+Two year,Has one of the two,368,15,4.1
+Two year,Has both security and support,600,18,3.0
+Two year,No internet service,638,5,0.8
