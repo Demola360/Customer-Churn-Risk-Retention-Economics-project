@@ -4,6 +4,15 @@ This is a project I built to answer a question that goes beyond "who is going to
 
 **Data:** [IBM Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) — around 7,000 real, anonymised telecom customers, with a genuine churn outcome recorded for each one. I picked this specifically because I wanted the underlying customer data to be real, not something I generated myself. It's a snapshot, not a live feed, but no real customer data updates live in public anywhere, for obvious reasons, so a snapshot is as real as this kind of project gets.
 
+## Report
+
+![Executive Summary](images/executive-summary.png)
+![Churn Drivers](images/churn-drivers.png)
+![Risk & Value Segmentation](images/risk-value-segmentation.png)
+![Intervention Recommendations](images/intervention-recommendations.png)
+
+Interactive report available as a downloadable `.pbix` file (see below) — Power BI's public web-publishing feature isn't available on my current account.
+
 ## Why I built it this way
 
 I already have a project using predictive modelling (Spotify listening data, tree based models, XGBoost). I didn't want to build the same thing again with a different dataset and call it a new project. So the model here is Logistic Regression, not a tree ensemble, tested properly against Random Forest rather than assumed to be the right choice. And the actual weight of this project isn't the model at all, it's the SQL work that found the real drivers of churn before any model got touched, and the economics on the back end that turn a risk score into an actual business decision.
